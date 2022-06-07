@@ -33,6 +33,13 @@ mydata <- na.omit(mydata)
 ```
 
 
+```{r}
+barchartGC(~race + eatout,data=mydata)
+barchartGC(~race + eatout,data=mydata, type="percent")
+
+```
+
+The white guys eat out more than the black guys and the other people. While the black guys and other have almost no difference and their data overlaps quite a lot.
 
 
 
